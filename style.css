@@ -1,6 +1,25 @@
+body{
+    font-family:  'Roboto', sans-serif;
+}
+
 .center {
     text-align: center;
 }
-.blue {
-    color: blue;
+.blue, 
+a {
+    color: #0691d7;
 }
+.img {
+    height: 30em;
+    width: 103em;
+}
+@font-face {
+    font-family: face;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+} 
+
+.left{
+    text-align: left;
+}
+
+  

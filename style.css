@@ -1,5 +1,6 @@
 body{
     font-family:  'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .center {
@@ -10,8 +11,7 @@ a {
     color: #0691d7;
 }
 .img {
-    height: 30em;
-    width: 103em;
+    align-items: center;
 }
 @font-face {
     font-family: face;
@@ -22,4 +22,30 @@ a {
     text-align: left;
 }
 
-  
+.italic{
+    font-style: italic;
+}
+
+  .recept{
+    font-size: 21px;
+    width: 70%;
+    margin: auto;
+}
+.yellow{
+    color: rgb(255, 187, 0);
+}
+.big-font{
+    font-size: 36px;
+    line-height: 1.57;
+}
+.main-title{
+    height: 512px;
+    background-color: #0691d7;
+    background-image: url("./assets/Imgs/61cc1ba5608b67.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
